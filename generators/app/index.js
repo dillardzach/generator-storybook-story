@@ -42,7 +42,7 @@ module.exports = class extends Generator {
 		/* Copying */
 		this.fs.copyTpl(
 			this.templatePath('story.js'),
-			this.destinationPath(name + '.js'),
+			this.destinationPath(name + '.stories.js'),
       { name}
     );
 
