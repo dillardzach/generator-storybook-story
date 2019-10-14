@@ -2,15 +2,6 @@
 const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
-const mkdirp = require('mkdirp');
-
-function pascalToSnake(s){
-	return s
-		.replace(/(?:^|\.?)([A-Z])/g, function (x,y){
-			return "_" + y.toLowerCase()
-		})
-		.replace(/^_/, "")
-}
 
 module.exports = class extends Generator {
   constructor(args, opts) {
@@ -47,34 +38,14 @@ module.exports = class extends Generator {
 	writing() {
 		/* Setting up variables */
 		const { name } = this.options
-		const folder = './' + name  +'/'
-		const scss = pascalToSnake(name + '.scss')
-
-		/* Making the new folder */
-		mkdirp.sync(name)
-		this.destinationRoot(folder);
 		
 		/* Copying */
 		this.fs.copyTpl(
-			this.templatePath('index.js'),
-			this.destinationPath('index.js'),
-      { name  }
-    );
-
-		this.fs.copyTpl(
-			this.templatePath('component.scss'),
-			this.destinationPath(pascalToSnake(scss)),
-				{ name }
-    );
-
-		this.fs.copyTpl(
-			this.templatePath('Component.js'),
+			this.templatePath('story.js'),
 			this.destinationPath(name + '.js'),
-			{ 
-				name,
-				scss
-			}
+      { name}
     );
+
   }
 
   install() {
