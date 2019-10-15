@@ -7,9 +7,11 @@ export default {
 	title: '<%= name %>',
 }
 
-export const <%= name %>Default = () => <<%= name %>></<%= name %>> 
+export const <%= name %>Default = () => 
+	<<%= name %>></<%= name %>> 
 
-export const <%= name %>Variant = () => <<%= name %>></<%= name %>> 
+export const <%= name %>Variant = () => 
+		<<%= name %>></<%= name %>> 
 
 	<%= name %>Variant.story = {
 		name: 'Variant',
