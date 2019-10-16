@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions'
 import { <%= name %> } from 'ui'
 
 export default {
-	title: '<%= name %>',
+	title: '<%= fullname %>',
 }
 
 export const <%= name %>Default = () => 

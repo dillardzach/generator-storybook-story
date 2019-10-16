@@ -37,13 +37,17 @@ module.exports = class extends Generator {
 
 	writing() {
 		/* Setting up variables */
-		const { name } = this.options
+		const { name:fullname } = this.options
+		const name = fullname.split('|').length > 1 ?
+			fullname.split('|')[1] : fullname
 		
 		/* Copying */
 		this.fs.copyTpl(
 			this.templatePath('story.js'),
 			this.destinationPath(name + '.stories.js'),
-      { name}
+			{ fullname,
+				name
+			}
     );
 
   }
