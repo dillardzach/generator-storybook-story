@@ -7,15 +7,15 @@ export default {
 	title: '<%= fullname %>',
 }
 
-export const <%= name %>Default = () => 
+export const Default = () => 
 	<<%= name %>></<%= name %>> 
 
-export const <%= name %>Variant = () => 
+export const Variant = () => 
 		<<%= name %>></<%= name %>> 
 
-	<%= name %>Variant.story = {
+/*Variant.story = {
 		name: 'Variant',
-}
+}*/
 
 		/*
     onClick={action('clicked')}
