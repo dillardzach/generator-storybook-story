@@ -1,12 +1,12 @@
 {
   "name": "generator-storybook-story",
-  "version": "1.1.0",
-  "description": "Creates a component for react 16.8 with a custom name and a scss file",
+  "version": "0.1.0",
+  "description": "Creates a story for the component created in @fwrlines/generator-react-component ",
   "homepage": "https://github.com/779g/generator-storybook-story",
   "author": {
-    "name": "779g",
+    "name": "fwrlines",
     "email": "800@779.mx",
-    "url": "https://github.com/779g"
+    "url": "https://github.com/fwrlines"
   },
   "files": [
     "generators"
