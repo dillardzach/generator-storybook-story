@@ -1,8 +1,8 @@
 {
-  "name": "generator-storybook-story",
-  "version": "0.1.0",
+  "name": "@fwrlines/generator-storybook-story",
+  "version": "0.1.1",
   "description": "Creates a story for the component created in @fwrlines/generator-react-component ",
-  "homepage": "https://github.com/779g/generator-storybook-story",
+  "homepage": "https://github.com/fwrlines/generator-storybook-story",
   "author": {
     "name": "fwrlines",
     "email": "800@779.mx",
@@ -70,6 +70,6 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "779g/generator-react-scss-component",
+  "repository": "fwrlines/generator-storybook-story",
   "license": "MIT"
 }
