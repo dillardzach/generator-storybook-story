@@ -1,19 +1,19 @@
-# generator-react-scss-component [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Creates a component for react 16.8 with a custom name and a scss file
+# generator-storybook-story [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> Creates a story for storybook. To be used with @fwrlines/generator-component
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-react-scss-component using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-storybook-story using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-react-scss-component
+npm install -g generator-storybook-story
 ```
 
 Then generate your new project:
 
 ```bash
-yo react-scss-component
+yo storybook-story
 ```
 
 ## Getting To Know Yeoman
@@ -25,14 +25,14 @@ yo react-scss-component
 
 ## License
 
-MIT © [779g](https://github.com/779g)
+MIT © [fwrlines](https://github.com/fwrlines)
 
 
-[npm-image]: https://badge.fury.io/js/generator-react-scss-component.svg
-[npm-url]: https://npmjs.org/package/generator-react-scss-component
-[travis-image]: https://travis-ci.com/779g/generator-react-scss-component.svg?branch=master
-[travis-url]: https://travis-ci.com/779g/generator-react-scss-component
-[daviddm-image]: https://david-dm.org/779g/generator-react-scss-component.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/779g/generator-react-scss-component
-[coveralls-image]: https://coveralls.io/repos/779g/generator-react-scss-component/badge.svg
-[coveralls-url]: https://coveralls.io/r/779g/generator-react-scss-component
+[npm-image]: https://badge.fury.io/js/generator-storybook-story.svg
+[npm-url]: https://npmjs.org/package/generator-storybook-story
+[travis-image]: https://travis-ci.com/fwrlines/generator-storybook-story.svg?branch=master
+[travis-url]: https://travis-ci.com/fwrlines/generator-storybook-story
+[daviddm-image]: https://david-dm.org/fwrlines/generator-storybook-story.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/fwrlines/generator-storybook-story
+[coveralls-image]: https://coveralls.io/repos/fwrlines/generator-storybook-story/badge.svg
+[coveralls-url]: https://coveralls.io/r/fwrlines/generator-storybook-story
