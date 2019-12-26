@@ -5,18 +5,18 @@ import React from 'react'
 import { <%= name %> } from 'ui'
 
 export default {
-	title: '<%= fullname %>',
-	component:<%= name %>,
-	parameters: {
-		decorators: [ 
-			//storyfn => <div className="">{ storyfn }</div>,
-		]
-	}
+  title: '<%= fullname %>',
+  component:<%= name %>,
+  parameters: {
+    decorators: [ 
+      //storyfn => <div className="">{ storyfn }</div>,
+    ]
+  }
 }
 
 export const Default = () => 
-	<<%= name %>></<%= name %>> 
+  <<%= name %>></<%= name %>> 
 
 export const Variant = () => 
-		<<%= name %>></<%= name %>> 
+    <<%= name %>></<%= name %>> 
 
