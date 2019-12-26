@@ -1,6 +1,6 @@
 {
   "name": "@fwrlines/generator-storybook-story",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Creates a story for the component created in @fwrlines/generator-react-component ",
   "homepage": "https://github.com/fwrlines/generator-storybook-story",
   "author": {
