@@ -20,10 +20,3 @@ export const Default = () =>
 export const Variant = () => 
 		<<%= name %>></<%= name %>> 
 
-/*Variant.story = {
-		name: 'Variant',
-}*/
-
-		/*
-    onClick={action('clicked')}
-		*/
