@@ -9,7 +9,7 @@ export default {
 	component:<%= name %>,
 	parameters: {
 		decorators: [ 
-			//sotryfn => <div className="">{ storyfn }</div>,
+			//storyfn => <div className="">{ storyfn }</div>,
 		]
 	}
 }
