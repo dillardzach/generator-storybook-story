@@ -27,7 +27,8 @@ module.exports = {
   'plugins': [
 		'react',
 		'react-hooks',
-    'babel'
+    'babel',
+    'ejs'
   ],
   'rules': {
     'indent': [
