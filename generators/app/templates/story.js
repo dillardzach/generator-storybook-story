@@ -14,9 +14,11 @@ export default {
   }
 }
 
-export const Default = () => 
+export const Default = () => (
   <<%= name %>></<%= name %>> 
+)
 
-export const Variant = () => 
+export const Variant = () => (
     <<%= name %>></<%= name %>> 
+)
 
