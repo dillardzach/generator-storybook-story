@@ -3,6 +3,10 @@ const Generator = require('yeoman-generator');
 const chalk = require('chalk');
 const yosay = require('yosay');
 
+let pjson = require('../../package.json')
+const version = pjson.version
+const pkg = pjson.name
+
 module.exports = class extends Generator {
   constructor(args, opts) {
     super(args, opts);
@@ -46,7 +50,9 @@ module.exports = class extends Generator {
 			this.templatePath('story.js'),
 			this.destinationPath(name + '.stories.js'),
 			{ fullname,
-				name
+				name,
+        pkg,
+        version
 			}
     );
 
