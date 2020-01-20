@@ -5,7 +5,8 @@ import React from 'react'
 
 import { <%= name %> } from 'ui'
 //import QUERY from './graphql/query.graphql'
-//import TestClient from 'stories/TestClient'
+//import { AplProvider } from 'stories/utils'
+//import { Router } from 'stories/utils'
 
 //const endpoint = 'https://api.fwrlines.com/graphql'
 
@@ -15,7 +16,8 @@ export default {
   parameters: {
     decorators: [ 
       //storyfn => <div className="">{ storyfn() }</div>,
-      //storyfn => <TestClient endpoint={ endpoint }>{ storyfn() }</TestClient>,
+      //storyfn => <AplProvider endpoint={ endpoint }>{ storyfn() }</AplProvider>,
+      //storyfn => <Router>{ storyfn() }</Router>,
     ]
   }
 }
