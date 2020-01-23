@@ -13,6 +13,9 @@ import { <%= name %> } from 'ui'
 export default {
   title: '<%= fullname %>',
   component:<%= name %>,
+  subcomponents: {
+    //<%= name %>.Item
+  }
   parameters: {
     decorators: [ 
       //storyfn => <div className="">{ storyfn() }</div>,
