@@ -13,6 +13,7 @@ import { <%= name %> } from 'ui'
 export default {
   title: '<%= fullname %>',
   component:<%= name %>,
+  //componentSubtitle:'Component subtitle',
   subcomponents: {
     //<%= name %>.Item
   }
