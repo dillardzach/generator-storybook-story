@@ -7,6 +7,8 @@ import { <%= name %> } from 'ui'
 //import QUERY from './graphql/query.graphql'
 //import { AplProvider } from 'stories/utils'
 //import { Router } from 'stories/utils'
+//import {ALL_COLORS, SIZES } from '../config.js'
+//import { TEXT_XXS_ESC, TEXT_XXS, TEXT_XS, TEXT } from '../utils/Dummy'
 
 //const endpoint = 'https://api.fwrlines.com/graphql'
 
