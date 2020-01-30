@@ -18,7 +18,7 @@ export default {
   //componentSubtitle:'Component subtitle',
   subcomponents: {
     //<%= name %>.Item
-  }
+  },
   parameters: {
     decorators: [ 
       //storyfn => <div className="">{ storyfn() }</div>,
