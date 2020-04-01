@@ -42,8 +42,8 @@ module.exports = class extends Generator {
 	writing() {
 		/* Setting up variables */
 		const { name:fullname } = this.options
-		const name = fullname.split('/').length > 1 ?
-			fullname.split(/[|\/]+/)[1] : fullname
+    const splitName = fullname.split(/[|\/]+/)
+		const name = splitName[splitName.length - 1]
 		
 		/* Copying */
 		this.fs.copyTpl(
