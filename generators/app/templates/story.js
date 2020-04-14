@@ -18,7 +18,7 @@ export default {
   component:<%= name %>,
   //componentSubtitle:'Component subtitle',
   subcomponents: {
-    //<%= name %>.Item
+    //Item:<%= name %>.Item
   },
   parameters: {
     decorators: [ 
