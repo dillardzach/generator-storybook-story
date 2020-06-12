@@ -29,11 +29,26 @@ export default {
   }
 }
 
+/*
+
+const storyParameters = {
+ previewTabs: {
+    'canvas': {
+      hidden: true
+    },
+  }
+}
+
+ */
+
 export const Default = () => (
   <<%= name %>></<%= name %>> 
 )
+
+//Default.parameters = storyParameters
 
 export const Variant = () => (
     <<%= name %>></<%= name %>> 
 )
 
+//Variant.parameters = storyParameters
